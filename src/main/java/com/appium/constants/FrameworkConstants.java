@@ -12,6 +12,7 @@
 
 package com.appium.constants;
 
+import java.time.Duration;
 import java.util.Date;
 
 import com.appium.utils.ConfigLoader;
@@ -59,7 +60,7 @@ public class FrameworkConstants {
 	public static final String TEXT = "text";
 	public static final String LABEL = "label";
 
-	public static final long EXPLICIT_WAIT = 10;
+	public static final String EXPLICIT_WAIT = "10";
 	public static final long WAIT = 5;
 
 	public static final String APPIUM_SERVER_LOGS = "ServerLogs/server.log";

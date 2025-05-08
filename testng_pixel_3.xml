@@ -10,14 +10,14 @@
 		<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
 	</listeners>
 
-	<test name="Tests on Emulator: Pixel 3">
+	<test name="Tests on Emulator: Medium Phone">
 		<parameter name="emulator" value="true"></parameter>
 		<parameter name="platformName" value="Android"></parameter>
 		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
 		<parameter name="udid" value="emulator-5554"></parameter>
 		<!-- Please give proper value as deviceName value is used as avd (to start 
 			Emulator automatically) -->
-		<parameter name="deviceName" value="Pixel_3"></parameter>
+		<parameter name="deviceName" value="Medium Phone"></parameter>
 		<parameter name="systemPort" value="10000" />
 		<parameter name="chromeDriverPort" value="11000" />
 		<packages>
